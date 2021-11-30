@@ -1,0 +1,1570 @@
+{
+  "hash": "0aed3ca2e3d582bf3ee6",
+  "version": "5.64.4",
+  "time": 883,
+  "builtAt": 1638276643026,
+  "publicPath": "auto",
+  "outputPath": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "main.js",
+      "size": 71291,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "main.js.LICENSE.txt"
+        },
+        "size": 71291
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "main.js.LICENSE.txt",
+          "size": 336,
+          "emitted": false,
+          "comparedForEmit": true,
+          "cached": false,
+          "info": {
+            "extractedComments": true,
+            "size": 336
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 545615,
+      "sizes": {
+        "javascript": 544608,
+        "runtime": 1007
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "1ef43951eba0a82e410d",
+      "childrenByOrder": {},
+      "id": 179,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 544098,
+          "sizes": {
+            "javascript": 544098
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "name": "./node_modules/lodash/lodash.js",
+          "nameForCondition": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 17,
+                "resolving": 8,
+                "restoring": 0,
+                "building": 9,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 1,
+                "additionalIntegration": 0,
+                "factory": 8,
+                "dependencies": 1
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": 486,
+          "issuerId": null,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "439:50-57",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "439:62-78",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "439:82-89",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "442:63-69",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "442:74-80",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "442:93-99",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "module": "./node_modules/lodash/lodash.js",
+              "moduleName": "./node_modules/lodash/lodash.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+              "resolvedModule": "./node_modules/lodash/lodash.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "17209:7-11",
+              "moduleId": 486,
+              "resolvedModuleId": 486
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js|1a59420700d9c34ecc69abc8af2d18c0",
+              "module": "./src/index.js + 1 modules",
+              "moduleName": "./src/index.js + 1 modules",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "1:0-23",
+              "moduleId": 548,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js|1a59420700d9c34ecc69abc8af2d18c0",
+              "module": "./src/index.js + 1 modules",
+              "moduleName": "./src/index.js + 1 modules",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "lodash",
+              "loc": "7:24-30",
+              "moduleId": 548,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 17209:7-11",
+            "CommonJS bailout: exports is used directly at 439:50-57",
+            "CommonJS bailout: exports is used directly at 439:82-89",
+            "Statement (ExpressionStatement) with side effects in source code at 9:1-17209:14",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 510,
+          "sizes": {
+            "javascript": 510
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js|1a59420700d9c34ecc69abc8af2d18c0",
+          "name": "./src/index.js + 1 modules",
+          "nameForCondition": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 548,
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "Dep"
+          ],
+          "providedExports": [
+            "Dep",
+            "hello"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/lodash.js: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 411,
+              "sizes": {
+                "javascript": 411
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "nameForCondition": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 17,
+                "resolving": 8,
+                "restoring": 0,
+                "building": 9,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 1,
+                "additionalIntegration": 0,
+                "factory": 8,
+                "dependencies": 1
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+                  "module": "./src/dep.js",
+                  "moduleName": "./src/dep.js",
+                  "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+                  "resolvedModule": "./src/dep.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./index",
+                  "loc": "1:0-35",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+                  "module": "./src/dep.js",
+                  "moduleName": "./src/dep.js",
+                  "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+                  "resolvedModule": "./src/dep.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./index",
+                  "loc": "5:12-15",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "Dep"
+              ],
+              "providedExports": [
+                "Dep",
+                "hello"
+              ],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 12:0-39"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 99,
+              "sizes": {
+                "javascript": 99
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+              "name": "./src/dep.js",
+              "nameForCondition": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "issuerName": "./src/index.js",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+                  "name": "./src/index.js",
+                  "profile": {
+                    "total": 17,
+                    "resolving": 8,
+                    "restoring": 0,
+                    "building": 9,
+                    "integration": 0,
+                    "storing": 0,
+                    "additionalResolving": 1,
+                    "additionalIntegration": 0,
+                    "factory": 8,
+                    "dependencies": 1
+                  },
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "profile": {
+                "total": 3,
+                "resolving": 1,
+                "restoring": 0,
+                "building": 2,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 1,
+                "dependencies": 0
+              },
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./dep",
+                  "loc": "15:0-37",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony export imported specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./dep",
+                  "loc": "16:0-13",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+                  "module": "./src/index.js",
+                  "moduleName": "./src/index.js",
+                  "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+                  "resolvedModule": "./src/index.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "./dep",
+                  "loc": "17:12-21",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 5:0-17"
+              ],
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 267,
+          "sizes": {
+            "runtime": 267
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 221,
+          "sizes": {
+            "runtime": 221
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/global",
+          "name": "webpack/runtime/global",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 123,
+          "sizes": {
+            "runtime": 123
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            179
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "layer": null,
+      "size": 510,
+      "sizes": {
+        "javascript": 510
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js|1a59420700d9c34ecc69abc8af2d18c0",
+      "name": "./src/index.js + 1 modules",
+      "nameForCondition": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 548,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "Dep"
+      ],
+      "providedExports": [
+        "Dep",
+        "hello"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/lodash.js: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 411,
+          "sizes": {
+            "javascript": 411
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 17,
+            "resolving": 8,
+            "restoring": 0,
+            "building": 9,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 1,
+            "additionalIntegration": 0,
+            "factory": 8,
+            "dependencies": 1
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+              "module": "./src/dep.js",
+              "moduleName": "./src/dep.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+              "resolvedModule": "./src/dep.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./index",
+              "loc": "1:0-35",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+              "module": "./src/dep.js",
+              "moduleName": "./src/dep.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+              "resolvedModule": "./src/dep.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./index",
+              "loc": "5:12-15",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "Dep"
+          ],
+          "providedExports": [
+            "Dep",
+            "hello"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 12:0-39"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 99,
+          "sizes": {
+            "javascript": 99
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+          "name": "./src/dep.js",
+          "nameForCondition": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "total": 17,
+                "resolving": 8,
+                "restoring": 0,
+                "building": 9,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 1,
+                "additionalIntegration": 0,
+                "factory": 8,
+                "dependencies": 1
+              },
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 3,
+            "resolving": 1,
+            "restoring": 0,
+            "building": 2,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 1,
+            "dependencies": 0
+          },
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./dep",
+              "loc": "15:0-37",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony export imported specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./dep",
+              "loc": "16:0-13",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./dep",
+              "loc": "17:12-21",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 5:0-17"
+          ],
+          "depth": 1
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 544098,
+      "sizes": {
+        "javascript": 544098
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+      "name": "./node_modules/lodash/lodash.js",
+      "nameForCondition": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 17,
+            "resolving": 8,
+            "restoring": 0,
+            "building": 9,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 1,
+            "additionalIntegration": 0,
+            "factory": 8,
+            "dependencies": 1
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": 486,
+      "issuerId": null,
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "439:50-57",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "439:62-78",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "439:82-89",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "442:63-69",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "442:74-80",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "442:93-99",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "module": "./node_modules/lodash/lodash.js",
+          "moduleName": "./node_modules/lodash/lodash.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/lodash/lodash.js",
+          "resolvedModule": "./node_modules/lodash/lodash.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "17209:7-11",
+          "moduleId": 486,
+          "resolvedModuleId": 486
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js|1a59420700d9c34ecc69abc8af2d18c0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "1:0-23",
+          "moduleId": 548,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js|1a59420700d9c34ecc69abc8af2d18c0",
+          "module": "./src/index.js + 1 modules",
+          "moduleName": "./src/index.js + 1 modules",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "lodash",
+          "loc": "7:24-30",
+          "moduleId": 548,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 17209:7-11",
+        "CommonJS bailout: exports is used directly at 439:50-57",
+        "CommonJS bailout: exports is used directly at 439:82-89",
+        "Statement (ExpressionStatement) with side effects in source code at 9:1-17209:14",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 99,
+      "sizes": {
+        "javascript": 99
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+      "name": "./src/dep.js",
+      "nameForCondition": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/dep.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "total": 17,
+            "resolving": 8,
+            "restoring": 0,
+            "building": 9,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 1,
+            "additionalIntegration": 0,
+            "factory": 8,
+            "dependencies": 1
+          },
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 3,
+        "resolving": 1,
+        "restoring": 0,
+        "building": 2,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 1,
+        "dependencies": 0
+      },
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./dep",
+          "loc": "15:0-37",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony export imported specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./dep",
+          "loc": "16:0-13",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./dep",
+          "loc": "17:12-21",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 5:0-17"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 267,
+      "sizes": {
+        "runtime": 267
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 221,
+      "sizes": {
+        "runtime": 221
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/global",
+      "name": "webpack/runtime/global",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 123,
+      "sizes": {
+        "runtime": 123
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        179
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 71291
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 71291,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        179
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 71291
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 71291,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [
+    {
+      "message": "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/",
+      "stack": "NoModeWarning: configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value.\nSet 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/\n    at /Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/webpack/lib/WarnNoModeSetPlugin.js:20:30\n    at Hook.eval [as call] (eval at create (/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:21:1)\n    at Hook.CALL_DELEGATE [as _call] (/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/tapable/lib/Hook.js:14:14)\n    at Compiler.newCompilation (/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/webpack/lib/Compiler.js:1054:30)\n    at /Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/webpack/lib/Compiler.js:1099:29\n    at Hook.eval [as callAsync] (eval at create (/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/tapable/lib/Hook.js:18:14)\n    at Compiler.compile (/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/webpack/lib/Compiler.js:1094:28)\n    at /Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/webpack/lib/Compiler.js:519:12\n    at Compiler.readRecords (/Users/hhgroot/Documents/learning/_NODEJS/webpack-demo/node_modules/webpack/lib/Compiler.js:931:11)"
+    }
+  ],
+  "warningsCount": 1,
+  "children": []
+}
